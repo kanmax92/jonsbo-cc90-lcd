@@ -1,0 +1,13 @@
+pkgbase = jonsbo-cc90-lcd
+	pkgdesc = Live CPU/GPU temperature display for the Jonsbo CC90 Digital cooler LCD (Linux daemon)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/kanmax92/jonsbo-cc90-lcd
+	arch = any
+	license = MIT
+	depends = python
+	optdepends = nvidia-utils: GPU temperature for the bar gauge
+	source = jonsbo-cc90-lcd-1.0.0.tar.gz::https://github.com/kanmax92/jonsbo-cc90-lcd/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 7141aee0d7d37d1a664bcea36bba595dd6477bb720a38d6d288610701d958ca2
+
+pkgname = jonsbo-cc90-lcd
