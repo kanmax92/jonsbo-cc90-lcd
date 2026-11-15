@@ -1,0 +1,11 @@
+[Unit]
+Description=Jonsbo CC90 Digital LCD: CPU temp digits + GPU temp bars
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/cc90-lcd --yes-writes --duration 0
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

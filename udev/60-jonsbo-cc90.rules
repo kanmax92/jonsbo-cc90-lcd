@@ -1,0 +1,3 @@
+# Jonsbo CC90 Digital cooler LCD panel (Semico 1a2c:4d84)
+# Screen lives on the second HID interface; grant write access to input group.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1a2c", ATTRS{idProduct}=="4d84", GROUP="input", MODE="0660"
